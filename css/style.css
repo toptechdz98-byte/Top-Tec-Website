@@ -1,0 +1,398 @@
+
+/****************/
+/* هذا الكود يمنع خط 'Cairo' من التأثير على الأيقونات */
+
+/*************hero***********/
+.hero{
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.hero .hero-content{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.hero .hero-content h1{
+    
+    width: 339px;
+}
+.hero .hero-content span
+
+{
+        font-size: 40px;
+    font-weight: bold;
+    color: #FCC103;
+}
+.hero .hero-content p{
+    width: 450px;
+}
+.hero .hero-content  .btns{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.hero .hero-content  .btns .ask{
+    background: #01359A;
+    display: block;
+    color: white;
+      width: 167px;
+    height: 45px;
+    padding-top: 8px;
+    padding-right: 19px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.hero .hero-content  .btns .ask i{
+    padding-top: 5px;
+    display: block;
+}
+.hero .hero-content  .btns .discocer{
+    background: #ffff;
+    display: flex;
+    color: #002071;
+    width: 191px;
+    height: 45px;
+    padding-top: 8px;
+    padding-right: 19px;
+    border-radius: 12px;
+    border: 2px solid rgba(196, 197, 213, 1);
+    justify-content: space-around;
+}
+.hero .hero-content  .btns .discocer i{
+    display: block;
+    padding-top: 6px;
+}
+.hero .hero-img{
+          width: 540px;
+}
+/*****************/
+.statics{
+    display: flex;
+    justify-content: space-around;
+    background: #01359A;
+    width: 85%;
+    margin: auto;
+    border-radius: 24px;
+    padding: 37px;
+    margin-bottom: 50px;
+    background: linear-gradient(90deg, #1e40af 0%, #1e3a8a 100%);
+    box-shadow: 0 20px 40px -10px rgba(30, 58, 138, 0.3);
+}
+.statics .clinints{
+     display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.statics .clinints .number{
+        font-size: 30px;
+    font-weight: bold;
+}
+/*****/
+.why-us{
+    background: #F5F8FF;
+    padding: 100px 20px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    background-color: #f8faff; /* لون الخلفية الفاتح جداً */
+    overflow: hidden;/* هذا السطر يصنع الانحناء في الأعلى والأسفل */
+border-top-left-radius: 50% 60px;
+border-top-right-radius: 50% 60px;
+border-bottom-left-radius: 50% 60px;
+border-bottom-right-radius: 50% 60px;
+}
+.why-us>span{
+        font-size: 33px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 19px;
+}
+.why-us>p{
+    color: #000000;
+    font-size: 19px;
+    width: 800px;
+    display: block;
+    margin: auto;}
+   
+.why-us .content{
+margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+      margin-right: 40px;
+
+}
+.why-us .content div{
+    flex: 1 1 350px; /* ينمو ويصغر، لكن حجمه الأساسي 300px */
+    max-width: 450px; /* نحدد أقصى عرض للكرت الواحد حتى لا يتمدد بشكل مبالغ فيه */
+        display: flex;
+    background: #fff;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    padding-left: 53px;
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    will-change: transform; /* تلميح للمتصفح لتجهيز تسريع الجهاز (GPU acceleration) */
+}
+.why-us .content div.active,
+.why-us .content div:hover{
+    background: linear-gradient(180deg, #E9EFFF 0%, #FFFFFF 100%);
+}
+
+.why-us .content div:hover{
+
+transform: translateY(-8px); /* ترفع البطاقة للأعلى قليلاً (قيمة سالبة) */
+    box-shadow: 0 10px 25px rgba(0, 71, 177, 0.08); /* ظل أعمق وبلون الأزرق الخفيف */
+    border-color: #0047b1; /* تغيير لون الـ border ليتناسب مع هوية TOP TECH */
+    }
+.why-us   .content div i{
+    color: #0D47A1;
+        width: 20px;
+    display: block;
+    height: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.why-us   .content div span{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.why-us  .content div  p{
+width: 300px;
+}
+/*****************/
+.services{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.services >span.title{
+        font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+.services .cotnent{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 21px;
+    
+    padding-right: 83px;
+}
+.services .cotnent  .service{
+      background: white;
+    border-radius: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.services .cotnent  .service i{
+        display: block;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+    height: 60px;
+    border-radius: 16px;
+    padding-top: 17px;
+    color: #01359A;
+    background: #0633A00D;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.services   .cotnent  .service .title
+{
+        color: #002071;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.contact-us{
+    margin-top: 66px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-us .title{
+        font-size: 50px;
+    font-weight: bold;
+}
+.contact-us p{
+    margin-bottom: 50px;
+}
+.contact-us
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-us .contact-form
+
+{
+    
+    width: 34%;
+}
+.contact-us .contact-form button{
+
+    background: #01359A;
+    width: 111px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;}
+.contact-us
+.content .contact-img img{
+    
+    width: 594px;
+    height: 268px;
+}
+
+.ask-services{
+background-color: #013698; /* اللون الأزرق الأساسي */
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* لقص الزوائد خارج الإطار */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    direction: rtl; /* لضبط اتجاه النص العربي */
+}
+.ask-services .title{
+    
+    font-size: 31px;
+    font-weight: bold;
+}
+.ask-services button{
+    
+    background: white;
+    width: 200px;
+    height: 41px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #01359A;
+    font-weight: bold;
+}
+
+
+
+
+.bg-shape {
+    position: absolute;
+    border: 1.5px solid rgba(255, 255, 255, 0.4); /* خط أبيض شفاف */
+    border-radius: 50%;
+    pointer-events: none; /* لكي لا تعيق النقر على الزر */
+}
+
+/* --- الجهة اليسرى --- */
+.left-1 {
+    width: 280px;
+    height: 280px;
+    bottom: -140px;
+    left: -80px;
+}
+
+.left-2 {
+    width: 400px;
+    height: 400px;
+    bottom: -200px;
+    left: -120px;
+        border: 6px solid;
+    border-color: #FFD700; /* الخط الأصفر/الذهبي */
+}
+
+/* --- الجهة اليمنى --- */
+.right-1 {
+    width: 320px;
+    height: 320px;
+    top: -160px;
+    right: -100px;
+}
+
+.right-2 {
+    width: 450px;
+    height: 450px;
+    top: -225px;
+    right: -150px;
+        border: 6px solid;
+    border-color: #FFD700; /* الخط الأصفر/الذهبي */
+}
+
+/* محتوى النص */
+.content { z-index: 2; }
+.content h1 { font-size: 2.2rem; margin-bottom: 15px; font-weight: bold; }
+.content p { font-size: 1.1rem; margin-bottom: 25px; opacity: 0.9; }
+
+.cta-button {
+    background: white;
+    color: #013698;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* أو 1140px حسب عرض التصميم عندك */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* لإضافة لمسة احترافية تناسب التصميم */
+    box-sizing: border-box; 
+}
+
+/* لجعل الحاويات داخل الشبكة (Grid) متناسقة */
+.section-wrapper {
+    padding: 80px 0; /* مسافة رأسية كبيرة بين الأقسام كما في التصميم */
+}
+
+/* */
+/* .services */
+/* .services */
+/* .services */
+/* .services */
+/* .services */
+/* .services */
+/* .services */
+/* .why-us */
+/* .why-us */ 

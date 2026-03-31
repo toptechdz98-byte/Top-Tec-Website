@@ -1,0 +1,82 @@
+/* تنسيقات الشاشات الصغيرة */
+@media (max-width: 600px) {
+     header {
+        justify-content: space-between;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    /* إخفاء القائمة العادية وزر الطلب في الهيدر */
+    header ul, 
+    header .request-sercive {
+        display: none;
+    }
+
+    /* إظهار أيقونة البرجر */
+    .menu-toggle {
+        display: block !important;
+        font-size: 24px;
+        cursor: pointer;
+        margin-top: 30px;
+        color: #0D47A1;
+    }
+
+    /* تحويل القائمة إلى قائمة منسدلة (Overlay) */
+    header ul.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 86px; /* أسفل الهيدر مباشرة */
+        left: 0;
+        width: 100%;
+        background: #fff;
+        gap: 0;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        z-index: 1000;
+        padding: 20px 0;
+    }
+
+    header ul.show li {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    header ul.show li a {
+        display: block;
+        width: 100%;
+    }
+
+    .hero .hero-content span {
+    font-size: 29px;}
+    .hero .hero-content p {
+    width: 306px;
+}
+
+    .hero{
+        
+    flex-direction: column;
+        margin: auto;
+    }
+    .why-service {
+    flex-direction: column;
+
+    }
+    .why-content{
+        text-align: center;
+        
+        padding-top: 20px;
+        
+        margin: auto;
+    }
+    .why-service .why-content .content div p {
+    width: 229px;
+}
+.why-service .why-img img{
+    width: 300px;
+    margin: auto;
+}
+.services-section {
+    padding-top: 20px;}
+}
